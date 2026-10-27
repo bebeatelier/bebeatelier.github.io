@@ -1,70 +1,409 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bébé Atelier · 링크</title>
-<meta name="description" content="아기를 더 잘 이해하고 싶은 엄마 아빠를 위한 Bébé Atelier의 상품·링크 모음">
-<meta property="og:title" content="Bébé Atelier"><meta property="og:image" content="assets/logo.png">
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bébé Atelier | 영상 속 상품 찾기</title>
+<meta name="description" content="Bébé Atelier 영상에 나온 상품을 번호나 영상 주소로 찾아보세요. 아기를 더 깊이 알고 싶은 엄마 아빠를 위한 채널이에요.">
+<link rel="canonical" href="https://bebeatelier.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bébé Atelier">
+<meta property="og:title" content="Bébé Atelier">
+<meta property="og:description" content="영상에서 본 상품을 번호나 영상 주소로 찾아보세요.">
+<meta property="og:url" content="https://bebeatelier.github.io/">
+<meta property="og:image" content="https://bebeatelier.github.io/assets/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#F1EBE0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1A1612" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="assets/button.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('ba-theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Serif+KR:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f5efe3;--card:#fffaf2;--ink:#3e2f22;--muted:#86705a;--line:#e4d8c6;--accent:#84623f;--chip:#efe4d2}
-@media (prefers-color-scheme:dark){:root{--bg:#1d1813;--card:#27201a;--ink:#f1e7d8;--muted:#b9a68f;--line:#3a3027;--accent:#d9b88f;--chip:#33291f}}
-*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Serif KR",serif;line-height:1.55}
-.wrap{max-width:560px;margin:0 auto;padding:28px 16px 56px}
-header{text-align:center}
-header img{width:76px;height:76px;border-radius:50%;filter:drop-shadow(0 3px 6px rgba(60,40,20,.18))}
-h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:40px;margin:10px 0 0;letter-spacing:.5px}
-.tag{color:var(--muted);font-size:15px;margin:4px 0 14px}
-.social{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
-.social a{font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 14px;background:var(--card)}
-.notice{margin:20px 0 14px;font-size:13px;color:var(--muted);background:var(--chip);border-radius:12px;padding:10px 14px;text-align:center}
-.find{display:flex;gap:8px;margin:0 0 16px}
-.find input{flex:1;min-width:0;font:inherit;font-size:16px;padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
-.find button{font:inherit;font-size:15px;padding:0 18px;border-radius:12px;border:0;background:var(--accent);color:var(--bg);cursor:pointer}
-.stitch{border:0;border-top:2px dashed var(--line);margin:22px 0}
-ol{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-li a{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px;transition:transform .15s}
-li a:active{transform:scale(.99)}
-li.hit a{outline:2px solid var(--accent)}
-.no{flex:0 0 auto;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:var(--chip);font-family:"Noto Serif KR",serif;font-variant-numeric:lining-nums tabular-nums;font-size:19px;font-weight:500;color:var(--accent)}
-.thumb{flex:0 0 auto;width:56px;height:56px;border-radius:10px;object-fit:cover}
-.txt{min-width:0}.name{font-size:16px;font-weight:500;overflow-wrap:anywhere}.meta{font-size:12px;color:var(--muted)}
-.go{margin-left:auto;color:var(--muted);font-size:20px}
-.msg{margin:-6px 0 10px;font-size:13px;color:var(--muted);text-align:center}.reset{font:inherit;font-size:13px;border:0;background:none;color:var(--accent);text-decoration:underline;cursor:pointer}
-.empty{text-align:center;color:var(--muted);padding:28px 0}
-footer{margin-top:28px;font-size:12px;color:var(--muted);text-align:center}
-</style></head>
-<body><div class="wrap">
-<header><img src="assets/button.png" alt="Bébé Atelier 로고"><h1>Bébé Atelier</h1>
-<p class="tag">우리 아기를 더 깊이 알아 가는 시간</p>
-<nav class="social"><a href="https://www.youtube.com/@bebeatelier" target="_blank" rel="noopener">YouTube</a>
-<a href="https://www.instagram.com/bebeatelier.official/" target="_blank" rel="noopener">Instagram</a></nav></header>
-<p class="notice">이 페이지의 상품 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
-<form class="find" id="f"><input id="q" type="search" autocomplete="off" placeholder="번호, 영상 주소, 상품 이름" aria-label="번호·영상 주소·상품 이름으로 찾기"><button>찾기</button></form>
-<p class="msg" id="m" hidden></p>
-<hr class="stitch">
-<ol>
-<p class="empty">곧 첫 상품이 올라와요.</p>
-</ol>
-<footer>가격과 재고는 쿠팡에서 바뀔 수 있어요. 구매 전 상품 페이지의 사용 연령·인증 정보를 꼭 확인해 주세요.</footer>
-</div><script>
-const L=[...document.querySelectorAll('ol li')],M=document.getElementById('m'),Q=document.getElementById('q');
-function vkey(u){let m=u.match(/(?:youtube\.com\/(?:shorts\/|watch\?(?:.*&)?v=|embed\/|live\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);if(m)return 'yt:'+m[1];
-m=u.match(/instagram\.com\/(?:[^\/]+\/)?(?:reels?|p|tv)\/([A-Za-z0-9_-]+)/);if(m)return 'ig:'+m[1];return '';}
-function show(list,msg){L.forEach(e=>{e.hidden=list&&!list.includes(e);e.classList.toggle('hit',!!list&&list.length===1&&list.includes(e));});
-if(msg){M.innerHTML=msg+(list?' <button class="reset" type="button" onclick="clearQ()">전체 보기</button>':'');M.hidden=false;}else M.hidden=true;
-if(list&&list[0])list[0].scrollIntoView({behavior:'smooth',block:'center'});}
-function clearQ(){Q.value='';show(null,'');history.replaceState(null,'',location.pathname);}
-function find(raw){const s=String(raw||'').trim();if(!s){show(null,'');return;}
-const k=vkey(s);if(k){const r=L.filter(e=>e.dataset.v.split(' ').includes(k));
-return show(r.length?r:[],r.length?'이 영상에 나온 상품이에요':'이 영상의 상품을 아직 찾지 못했어요. 영상에서 본 번호로 찾아 주세요.');}
-if(/^#?\s*\d+\s*번?$/.test(s)){const n=s.replace(/\D/g,'');const r=L.filter(e=>e.dataset.no===n);
-return show(r,r.length?n+'번 상품이에요':n+'번 상품은 아직 없어요');}
-const w=s.toLowerCase().split(/\s+/);const r=L.filter(e=>w.every(x=>e.dataset.w.includes(x)));
-show(r,r.length?r.length+'개 찾았어요':'찾는 상품이 없어요');}
-document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();find(Q.value);Q.blur();});
-Q.addEventListener('input',()=>{if(!Q.value.trim())show(null,'');});
-const h=decodeURIComponent(location.hash.slice(1));const qp=new URLSearchParams(location.search).get('q')||new URLSearchParams(location.search).get('v');
-if(qp){Q.value=qp;find(qp);}else if(h){find(h);}
-</script></body></html>
+:root{--muslin:#F1EBE0;--paper:#FBF8F2;--walnut:#3A2A1E;--bark:#76614D;--seam:#D9CDBB;--thread:#A8875F;
+--ink:#34507F;--on-ink:#FBF8F2;--weave:rgba(58,42,30,.032);
+--lift:0 1px 0 rgba(58,42,30,.05),0 16px 30px -20px rgba(58,42,30,.5);
+--tag-shadow:drop-shadow(0 1px 0 rgba(58,42,30,.07)) drop-shadow(0 10px 12px rgba(58,42,30,.13));color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--muslin:#1A1612;--paper:#251F19;--walnut:#F1E8DA;--bark:#BDA991;--seam:#3C322A;--thread:#C9A574;--ink:#B4C4E8;--on-ink:#1A1612;--weave:rgba(241,232,218,.022);--lift:0 1px 0 rgba(0,0,0,.35),0 18px 32px -20px rgba(0,0,0,.9);--tag-shadow:drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 10px 14px rgba(0,0,0,.45));color-scheme:dark}}
+:root[data-theme="dark"]{--muslin:#1A1612;--paper:#251F19;--walnut:#F1E8DA;--bark:#BDA991;--seam:#3C322A;--thread:#C9A574;--ink:#B4C4E8;--on-ink:#1A1612;--weave:rgba(241,232,218,.022);--lift:0 1px 0 rgba(0,0,0,.35),0 18px 32px -20px rgba(0,0,0,.9);--tag-shadow:drop-shadow(0 1px 0 rgba(0,0,0,.4)) drop-shadow(0 10px 14px rgba(0,0,0,.45));color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;min-height:100vh;background-color:var(--muslin);
+background-image:repeating-linear-gradient(0deg,var(--weave) 0 1px,transparent 1px 4px),repeating-linear-gradient(90deg,var(--weave) 0 1px,transparent 1px 4px);
+color:var(--walnut);font:400 16px/1.75 "Gowun Batang","Apple SD Gothic Neo",serif;
+-webkit-font-smoothing:antialiased;word-break:keep-all;overflow-wrap:anywhere}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-80px;z-index:9;padding:10px 14px;border-radius:10px;background:var(--paper);box-shadow:var(--lift);text-decoration:none}
+.skip:focus{top:12px}
+.page{max-width:600px;margin:0 auto;padding:0 20px calc(48px + env(safe-area-inset-bottom))}
+
+.bar{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font:400 21px/1 "Libre Caslon Display",serif;letter-spacing:.01em}
+.brand img{width:30px;height:30px}
+.theme{display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid var(--seam);border-radius:50%;background:none;color:var(--walnut);cursor:pointer}
+.theme svg{width:20px;height:20px}
+.i-sun{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .i-sun{display:block}:root:not([data-theme="light"]) .i-moon{display:none}}
+:root[data-theme="dark"] .i-sun{display:block}:root[data-theme="dark"] .i-moon{display:none}
+
+.hero{padding:18px 0 0}
+.wordmark{margin:0;font:400 clamp(68px,23vw,132px)/.86 "Libre Caslon Display",serif;letter-spacing:-.025em}
+.wordmark span{display:block}
+.wordmark span+span{padding-left:.36em}
+.sewn{display:flex;align-items:center;margin:-10px 0 22px;padding-left:4px}
+.stitch{flex:1;min-width:0;height:34px;overflow:visible}
+.thread{fill:none;stroke:var(--thread);stroke-width:2.2;stroke-linecap:round;stroke-dasharray:8 7}
+.draw{fill:none;stroke:#fff;stroke-width:14;stroke-dasharray:1;stroke-dashoffset:0}
+.sewn picture{flex:none;margin-left:-6px}
+.btn-img{display:block;width:80px;height:80px;filter:drop-shadow(0 8px 10px rgba(58,42,30,.3))}
+.lede{margin:0 0 20px;font-size:18px;line-height:1.7}
+.channels{display:flex;flex-wrap:wrap;gap:8px}
+.channels a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 14px;border:1px solid var(--seam);border-radius:10px;background:var(--paper);text-decoration:none;font-size:14.5px}
+.channels small{font-size:12.5px;color:var(--bark)}
+
+.patch{position:relative;margin:30px 0 14px;padding:26px 20px 22px;border-radius:22px;background:var(--paper);box-shadow:var(--lift)}
+.patch::before{content:"";position:absolute;inset:7px;border:1.5px dashed var(--seam);border-radius:16px;pointer-events:none}
+.patch h2{margin:0 0 14px;font:700 19px/1.4 "Gowun Batang",serif}
+.find{display:flex;gap:8px}
+.find input{flex:1;min-width:0;height:54px;margin:0;padding:0 16px;border:1.5px solid var(--seam);border-radius:14px;background:var(--muslin);color:var(--walnut);font:400 16px "Gowun Batang",serif;-webkit-appearance:none;appearance:none}
+.find input::placeholder{color:var(--bark);opacity:.85}
+.find input:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px rgba(52,80,127,.18)}
+.find button{flex:none;height:54px;padding:0 20px;border:0;border-radius:14px;background:var(--ink);color:var(--on-ink);font:700 16px "Gowun Batang",serif;cursor:pointer}
+.hint{margin:12px 0 0;font-size:13.5px;line-height:1.6;color:var(--bark)}
+.msg{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:14px 0 0;font-size:15px;line-height:1.6}
+.msg[hidden]{display:none}
+.reset{padding:0;border:0;background:none;color:var(--ink);font:inherit;font-size:14px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.care{margin:0;padding:12px 4px;border-top:1.5px dashed var(--seam);border-bottom:1.5px dashed var(--seam);font-size:13px;line-height:1.65;color:var(--bark)}
+
+.rack-wrap{margin-top:52px}
+.head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:18px}
+h2.h{margin:0;font:700 22px/1.35 "Gowun Batang",serif}
+.count{font:400 20px/1 "Libre Caslon Display",serif;color:var(--bark)}
+.rack{position:relative;display:grid;gap:14px;margin:0;padding:0 0 0 24px;list-style:none}
+.rack::before{content:"";position:absolute;left:6px;top:-10px;bottom:-10px;border-left:2px dotted var(--thread)}
+.tag{position:relative;filter:var(--tag-shadow)}
+.tag[hidden]{display:none}
+.tag::after{content:"";position:absolute;z-index:2;left:-18px;top:50%;width:36px;margin-top:-.75px;border-top:1.5px solid var(--thread)}
+.tag a{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:14px;min-height:88px;padding:14px 16px 14px 36px;background:var(--paper);color:inherit;text-decoration:none;clip-path:polygon(18px 0,100% 0,100% 100%,18px 100%,0 calc(100% - 18px),0 18px);transition:background-color .3s}
+.tag a.has-img{grid-template-columns:auto 56px minmax(0,1fr)}
+.hole{position:absolute;left:12px;top:50%;width:13px;height:13px;margin-top:-6.5px;border-radius:50%;background:var(--muslin);box-shadow:inset 0 0 0 2px var(--seam)}
+.no{min-width:1.6ch;font:400 34px/1 "Libre Caslon Display",serif;font-variant-numeric:lining-nums;text-align:right}
+.no i{margin-right:3px;font-style:normal;font-size:14px;color:var(--bark);vertical-align:.9em}
+.thumb{width:56px;height:56px;border-radius:8px;object-fit:cover}
+.name{display:block;font:700 16.5px/1.45 "Gowun Batang",serif}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 8px;margin-top:6px;font-size:12.5px;color:var(--bark)}
+.cat{padding:0 8px;border:1px dashed var(--seam);border-radius:999px;line-height:20px}
+.ext{display:inline-flex;align-items:center;gap:3px;margin-left:auto;color:var(--ink);white-space:nowrap}
+.ext svg{width:14px;height:14px}
+.tag.hit a{background:var(--paper);background:color-mix(in srgb,var(--ink) 9%,var(--paper))}
+.tag.hit .hole{box-shadow:inset 0 0 0 2px var(--ink)}
+.tag.hit .no{color:var(--ink)}
+.empty{display:grid;justify-items:start;gap:4px;padding:22px 20px 24px;border:1.5px dashed var(--seam);border-radius:18px;background:var(--paper)}
+.empty svg{width:150px;height:auto;margin:0 0 6px -8px}
+.empty h3{margin:0;font:700 17px/1.4 "Gowun Batang",serif}
+.empty p{margin:0;font-size:14.5px;color:var(--bark)}
+.hanger,.hanger-thread{fill:none;stroke:var(--walnut);stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+.hanger-thread{stroke:var(--thread);stroke-width:2}
+.hanger-tag{fill:var(--muslin);stroke:var(--thread);stroke-width:2;stroke-dasharray:4 4}
+.hanger-hole{fill:none;stroke:var(--thread);stroke-width:1.5}
+
+.vision{margin-top:72px}
+.sub{margin:6px 0 18px;font-size:15px;color:var(--bark)}
+.scene{position:relative;isolation:isolate;margin:0;aspect-ratio:5/6;overflow:hidden;border-radius:22px;background:#EDE4D6;box-shadow:var(--lift)}
+.view{position:absolute;inset:0;filter:saturate(var(--sat,1)) contrast(var(--con,1));transition:filter .8s ease}
+.layer{position:absolute;inset:0;transition:filter .8s ease}
+.layer svg{display:block;width:100%;height:100%}
+.far{filter:blur(var(--far,0px));transform:scale(1.07)}
+.near{filter:blur(var(--near,0px))}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse 62% 56% at 50% 40%,transparent 30%,rgba(28,20,14,.94) 100%);opacity:var(--vig,0);pointer-events:none;transition:opacity .8s ease}
+.scene-tag{position:absolute;left:12px;bottom:12px;padding:5px 12px;border-radius:8px;background:rgba(251,248,242,.94);color:#3A2A1E;font-size:13.5px;line-height:1.5}
+.p{transform-box:view-box}
+.p1{transform-origin:118px 44px}.p2{transform-origin:200px 48px}.p3{transform-origin:282px 44px}
+.months{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;margin:16px 0 10px}
+.months button{min-width:0;min-height:44px;padding:0 2px;border:1px solid var(--seam);border-radius:999px;background:var(--paper);color:var(--walnut);font:400 14px "Gowun Batang",serif;letter-spacing:-.02em;white-space:nowrap;cursor:pointer}
+.months button[aria-checked="true"]{border-color:var(--walnut);background:var(--walnut);color:var(--muslin)}
+.adult{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:52px;border:1.5px solid var(--ink);border-radius:14px;background:none;color:var(--ink);font:700 15px "Gowun Batang",serif;cursor:pointer;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
+.adult[aria-pressed="true"]{background:var(--ink);color:var(--on-ink)}
+.adult svg{width:20px;height:20px}
+.fact{margin-top:18px;padding:18px 18px 16px;border-radius:16px;background:var(--paper)}
+.fact h3{margin:0 0 4px;font:700 17px/1.4 "Gowun Batang",serif}
+.fact p{margin:0}
+.fact .from{margin-top:8px;font-size:12.5px;color:var(--bark)}
+.tape{margin-top:16px}
+.tape[hidden]{display:none}
+.tape svg{display:block;width:100%;height:auto}
+.tape .band{fill:#E7C24A}.tape .tick{stroke:#2B2116;stroke-width:1.2}
+.tape text{fill:#2B2116;font:400 14px "Gowun Batang",serif}
+.tape .zone{fill:#FFFDF4;opacity:.55}.tape .zone-line{fill:none;stroke:var(--ink);stroke-width:2}
+.tape p{margin:4px 0 0;font-size:13px;color:var(--ink);text-align:center}
+.note,.src{margin:12px 0 0;font-size:13px;line-height:1.65;color:var(--bark)}
+.src a{color:var(--ink);text-underline-offset:3px}
+
+.about{margin-top:72px}
+.threads{display:grid;gap:18px;margin:16px 0 20px;padding:0;list-style:none}
+.threads li{padding-left:16px;border-left:3px solid var(--c)}
+.threads h3{margin:0;font:700 17px/1.4 "Gowun Batang",serif}
+.threads p{margin:2px 0 0;font-size:15px;color:var(--bark)}
+.watch{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:14px;background:var(--ink);color:var(--on-ink);text-decoration:none;font-weight:700}
+
+.foot{margin-top:80px;padding-top:28px;border-top:1px solid var(--seam);font-size:13px;line-height:1.7;color:var(--bark)}
+.foot-mark{margin:0 0 12px;font:400 34px/1 "Libre Caslon Display",serif;color:var(--walnut)}
+.foot nav{display:flex;gap:18px;margin-bottom:14px}
+.foot nav a{color:var(--walnut);text-underline-offset:3px}
+.foot p{margin:6px 0}
+
+@media (prefers-reduced-motion:no-preference){
+.js:not(.ready) .wordmark span{filter:blur(16px);opacity:.25;letter-spacing:.05em}
+.js:not(.ready) .draw{stroke-dashoffset:1}
+.js:not(.ready) .btn-img,.js:not(.ready) .lede,.js:not(.ready) .channels{opacity:0}
+.ready .wordmark span{animation:focus 1.9s cubic-bezier(.2,.65,.15,1) both}
+.ready .wordmark span+span{animation-delay:.12s}
+.ready .draw{animation:sew 1.3s .75s cubic-bezier(.5,0,.2,1) both}
+.ready .btn-img{animation:sewn-on .9s 1.6s cubic-bezier(.3,1.4,.5,1) both}
+.ready .lede,.ready .channels{animation:appear .9s 1.15s both}
+.tag.hit{animation:swing 1.2s cubic-bezier(.3,.7,.3,1);transform-origin:18px 50%}
+.scene.swing .p1{animation:sway 2.2s ease-out}.scene.swing .p2{animation:sway 2.6s .1s ease-out}.scene.swing .p3{animation:sway 2.4s .05s ease-out}
+}
+@keyframes focus{from{filter:blur(16px);opacity:.25;letter-spacing:.05em}to{filter:blur(0);opacity:1;letter-spacing:-.025em}}
+@keyframes sew{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes sewn-on{from{opacity:0;transform:scale(.4) rotate(-120deg)}to{opacity:1;transform:none}}
+@keyframes appear{from{opacity:0}to{opacity:1}}
+@keyframes swing{0%{transform:rotate(0)}18%{transform:rotate(-5deg)}40%{transform:rotate(3.2deg)}62%{transform:rotate(-1.6deg)}82%{transform:rotate(.6deg)}100%{transform:rotate(0)}}
+@keyframes sway{0%{transform:rotate(0)}15%{transform:rotate(7deg)}38%{transform:rotate(-5deg)}60%{transform:rotate(3deg)}80%{transform:rotate(-1.2deg)}100%{transform:rotate(0)}}
+
+@media (min-width:980px){
+.page{display:grid;grid-template-columns:minmax(0,430px) minmax(0,1fr);column-gap:80px;max-width:1180px;padding:0 48px 64px}
+.bar,.foot{grid-column:1/-1}
+.side{grid-column:1;align-self:start}
+.main{grid-column:2;padding-top:24px}
+.wordmark{font-size:120px}
+.rack-wrap{margin-top:0}
+.scene{max-width:540px}
+}
+@media (min-width:980px) and (min-height:880px){.side{position:sticky;top:24px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#find">상품 찾기로 바로 가기</a>
+<div class="page">
+<header class="bar">
+  <a class="brand" href="./"><img src="assets/button.png" alt="" width="30" height="30">Bébé Atelier</a>
+  <button class="theme" type="button" aria-label="밝은 화면과 어두운 화면 바꾸기"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></button>
+</header>
+
+<div class="side">
+<section class="hero" aria-labelledby="wm">
+  <h1 class="wordmark" id="wm" aria-label="Bébé Atelier"><span aria-hidden="true">Bébé</span><span aria-hidden="true">Atelier</span></h1>
+  <div class="sewn" aria-hidden="true">
+    <svg class="stitch" viewBox="0 0 300 34" preserveAspectRatio="none" focusable="false">
+      <defs><mask id="sew" maskUnits="userSpaceOnUse" x="-10" y="-10" width="320" height="54"><path class="draw" pathLength="1" d="M2 24C60 4 112 32 170 18S262 12 300 17"/></mask></defs>
+      <path class="thread" vector-effect="non-scaling-stroke" mask="url(#sew)" d="M2 24C60 4 112 32 170 18S262 12 300 17"/>
+    </svg>
+    <picture><source srcset="assets/button-360.webp" type="image/webp"><img class="btn-img" src="assets/button-360.png" alt="" width="80" height="80"></picture>
+  </div>
+  <p class="lede">아기를 더 깊이 알고 싶은<br>엄마 아빠를 위한 채널이에요.</p>
+  <nav class="channels" aria-label="채널">
+    <a href="https://www.youtube.com/@bebeatelier" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://www.instagram.com/bebeatelier.official/" target="_blank" rel="noopener">Instagram</a>
+  </nav>
+</section>
+
+<section class="patch" id="find" aria-labelledby="find-h">
+  <h2 id="find-h">영상에서 본 상품 찾기</h2>
+  <form class="find" id="f" role="search">
+    <label class="sr" for="q">번호, 영상 주소, 상품 이름</label>
+    <input id="q" type="search" enterkeyhint="search" autocomplete="off" placeholder="번호, 영상 주소, 상품 이름">
+    <button type="submit">찾기</button>
+  </form>
+  <p class="hint">영상 속 번호를 넣거나, 쇼츠·릴스 주소를 그대로 붙여 넣으세요.</p>
+  <p class="msg" id="m" role="status" aria-live="polite" hidden></p>
+</section>
+<p class="care">이 페이지의 상품 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+</div>
+
+<main class="main">
+<section class="rack-wrap" id="rack" aria-labelledby="rack-h">
+  <div class="head"><h2 class="h" id="rack-h">걸려 있는 상품</h2></div>
+  <div class="empty"><svg viewBox="0 0 220 150" aria-hidden="true" focusable="false">
+<path class="hanger" d="M110 46c0-10 14-10 14-22 0-9-7-14-14-14s-14 5-14 13"/>
+<path class="hanger" d="M110 46L24 100h172z"/>
+<path class="hanger-thread" d="M150 100v14"/>
+<path class="hanger-tag" d="M140 114h56v30h-56l-8-8v-14z"/>
+<circle class="hanger-hole" cx="141" cy="129" r="3.5"/>
+</svg><h3>첫 상품을 준비하고 있어요</h3><p>영상이 올라오면 번호표를 달고 이곳에 걸려요. 영상 속 번호로 바로 찾을 수 있어요.</p></div>
+</section>
+
+<section class="vision" id="vision" aria-labelledby="vision-h">
+  <h2 class="h" id="vision-h">아기 눈으로 보면</h2>
+  <p class="sub">같은 방도 월령에 따라 이렇게 달라 보여요. 월령을 골라 보세요.</p>
+  <figure class="scene" id="scene" style="--far:9px;--near:1.8px;--sat:.14;--con:.84;--vig:.55">
+    <div class="view">
+      <div class="layer far"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<rect width="400" height="480" fill="#EDE4D6"/>
+<g fill="#E5D9C8" opacity=".7"><rect x="10" y="0" width="12" height="352"/><rect x="44" y="0" width="12" height="352"/><rect x="78" y="0" width="12" height="352"/><rect x="112" y="0" width="12" height="352"/><rect x="146" y="0" width="12" height="352"/><rect x="180" y="0" width="12" height="352"/><rect x="214" y="0" width="12" height="352"/><rect x="248" y="0" width="12" height="352"/><rect x="282" y="0" width="12" height="352"/><rect x="316" y="0" width="12" height="352"/><rect x="350" y="0" width="12" height="352"/><rect x="384" y="0" width="12" height="352"/></g>
+<rect x="236" y="56" width="128" height="154" fill="#CFE1EE"/>
+<circle cx="330" cy="92" r="16" fill="#F7E6B5"/>
+<path d="M236 172q26-26 52-6 28-24 54-4 14-8 22-2v50H236z" fill="#B7CDB9"/>
+<path d="M236 190q30-16 60-2 34-14 68 0v22H236z" fill="#A3BEA6"/>
+<rect x="236" y="56" width="128" height="154" fill="none" stroke="#FFFAF2" stroke-width="8"/>
+<path d="M300 56v154M236 133h128" stroke="#FFFAF2" stroke-width="5"/>
+<rect x="226" y="208" width="148" height="8" rx="2" fill="#FFFAF2"/>
+<path d="M222 42h32c-4 50 4 108-6 180h-26z" fill="#D9AFA4"/>
+<path d="M346 42h32v180h-26c-10-72-2-130-6-180z" fill="#D9AFA4"/>
+<path d="M232 50c-2 60 4 120-2 168M368 50c2 60-4 120 2 168" fill="none" stroke="#CB9C90" stroke-width="3"/>
+<rect x="214" y="36" width="172" height="7" rx="3.5" fill="#9A7752"/>
+<circle cx="214" cy="39.5" r="6" fill="#9A7752"/><circle cx="386" cy="39.5" r="6" fill="#9A7752"/>
+<rect x="38" y="70" width="108" height="80" fill="#FFFAF2" stroke="#A9825A" stroke-width="6"/>
+<path d="M58 140a22 22 0 0 1 44 0z" fill="#8FA693"/><path d="M96 140l20-36 20 36z" fill="#D9B26F"/>
+<circle cx="124" cy="92" r="9" fill="#6F8FAF"/>
+<rect x="42" y="166" width="14" height="48" fill="#6F8FAF"/><rect x="58" y="174" width="12" height="40" fill="#D9B26F"/>
+<rect x="72" y="162" width="16" height="52" fill="#8FA693"/><rect x="90" y="176" width="12" height="38" fill="#E9DCC8"/>
+<rect x="106" y="176" width="13" height="40" fill="#C77E6E" transform="rotate(-14 112 214)"/>
+<path d="M150 214h32l-5-24h-22z" fill="#CDAE8E"/>
+<path d="M166 190c-18-6-22-26-10-34 4 14 10 20 10 34z" fill="#6E9474"/>
+<path d="M166 190c14-10 30-6 30 6-12 0-20-2-30-6z" fill="#7FA486"/>
+<path d="M166 190c-2-16 6-34 18-36 0 14-6 26-18 36z" fill="#5F8566"/>
+<rect x="30" y="214" width="164" height="9" rx="2" fill="#A9825A"/>
+<rect y="356" width="400" height="124" fill="#D3BB9C"/>
+<path d="M0 390h400M0 424h400M0 458h400M120 356v34M260 390v34M60 424v34M330 424v34" stroke="#C4A983" stroke-width="2"/>
+<rect y="350" width="400" height="10" fill="#BF9F78"/>
+<ellipse cx="186" cy="432" rx="156" ry="34" fill="#E9D8C9"/>
+<ellipse cx="186" cy="432" rx="126" ry="24" fill="none" stroke="#D6BFAA" stroke-width="4" stroke-dasharray="1 9" stroke-linecap="round"/>
+<path d="M232 258v98" stroke="#7C6247" stroke-width="4"/><path d="M210 262h44l-9-36h-26z" fill="#F3E4C7"/>
+<ellipse cx="232" cy="358" rx="16" ry="4" fill="#7C6247"/>
+<path d="M284 318q0-52 46-52h22q42 0 42 52v70H284z" fill="#95ABC1"/>
+<rect x="290" y="350" width="98" height="22" rx="8" fill="#A7BBCF"/>
+<rect x="272" y="330" width="26" height="62" rx="13" fill="#889FB6"/><rect x="380" y="330" width="26" height="62" rx="13" fill="#889FB6"/>
+<rect x="290" y="388" width="8" height="20" fill="#7C6247"/><rect x="384" y="388" width="8" height="20" fill="#7C6247"/>
+<ellipse cx="80" cy="392" rx="34" ry="7" fill="#A9825A"/><rect x="77" y="330" width="6" height="60" fill="#A9825A"/>
+<ellipse cx="80" cy="382" rx="30" ry="9" fill="#C77E6E"/><ellipse cx="80" cy="370" rx="25" ry="8" fill="#D9B26F"/>
+<ellipse cx="80" cy="359" rx="20" ry="7" fill="#8FA693"/><ellipse cx="80" cy="349" rx="15" ry="6" fill="#6F8FAF"/>
+<circle cx="80" cy="337" r="9" fill="#E9DCC8"/>
+</svg></div>
+      <div class="layer near"><svg viewBox="0 0 400 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+<path d="M200 0v42" stroke="#8B6B4A" stroke-width="4"/>
+<path d="M104 42h192" stroke="#8B6B4A" stroke-width="7" stroke-linecap="round"/>
+<circle cx="200" cy="42" r="8" fill="#8B6B4A"/><circle cx="104" cy="42" r="6" fill="#A9825A"/><circle cx="296" cy="42" r="6" fill="#A9825A"/>
+<g class="p p1"><path d="M118 44v108" stroke="#7A6A5A" stroke-width="1.6"/>
+<circle cx="118" cy="186" r="34" fill="#161616"/><circle cx="118" cy="186" r="25" fill="#FAFAF7"/>
+<circle cx="118" cy="186" r="16" fill="#161616"/><circle cx="118" cy="186" r="7" fill="#FAFAF7"/></g>
+<g class="p p2"><path d="M200 48v150" stroke="#7A6A5A" stroke-width="1.6"/>
+<circle cx="200" cy="234" r="36" fill="#C8372D"/><polygon points="200.0,216.0 204.7,228.5 218.1,229.1 207.6,237.5 211.2,250.4 200.0,243.0 188.8,250.4 192.4,237.5 181.9,229.1 195.3,228.5" fill="#FAFAF7"/></g>
+<g class="p p3"><path d="M282 44v88" stroke="#7A6A5A" stroke-width="1.6"/>
+<g transform="translate(282 170) rotate(45)"><rect x="-27" y="-27" width="54" height="54" fill="#FAFAF7"/>
+<g fill="#161616"><rect x="-27.0" y="-27.0" width="13.5" height="13.5"/><rect x="-27.0" y="0.0" width="13.5" height="13.5"/><rect x="-13.5" y="-13.5" width="13.5" height="13.5"/><rect x="-13.5" y="13.5" width="13.5" height="13.5"/><rect x="0.0" y="-27.0" width="13.5" height="13.5"/><rect x="0.0" y="0.0" width="13.5" height="13.5"/><rect x="13.5" y="-13.5" width="13.5" height="13.5"/><rect x="13.5" y="13.5" width="13.5" height="13.5"/></g><rect x="-27" y="-27" width="54" height="54" fill="none" stroke="#161616" stroke-width="2"/></g></g>
+</svg></div>
+      <div class="vig"></div>
+    </div>
+    <figcaption class="scene-tag" id="scene-tag">생후 1개월의 눈</figcaption>
+  </figure>
+  <div class="months" role="radiogroup" aria-label="월령"><button type="button" role="radio" data-m="1" aria-checked="true">1개월</button><button type="button" role="radio" data-m="2" aria-checked="false" tabindex="-1">2개월</button><button type="button" role="radio" data-m="3" aria-checked="false" tabindex="-1">3개월</button><button type="button" role="radio" data-m="4" aria-checked="false" tabindex="-1">4개월</button><button type="button" role="radio" data-m="6" aria-checked="false" tabindex="-1">5~6개월</button></div>
+  <button class="adult" id="adult" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" fill="currentColor"/></svg>누르고 있는 동안 어른 눈으로 보기</button>
+  <div class="fact" aria-live="polite">
+    <h3 id="fact-h">생후 1개월</h3>
+    <p id="fact-p">20~30cm 떨어진 것이 가장 잘 보여요. 안고 있을 때 엄마 아빠 얼굴까지의 거리쯤이에요. 먼 곳은 흐릿하고, 흑백처럼 대비가 강한 무늬를 오래 바라보기도 해요.</p>
+    <div class="tape" id="tape"><svg viewBox="0 0 420 64" aria-hidden="true" focusable="false"><rect class="band" x="10" y="8" width="400" height="44" rx="3"/><rect class="zone" x="210" y="8" width="100" height="44"/><line class="tick" x1="10" y1="8" x2="10" y2="24"/><line class="tick" x1="20" y1="8" x2="20" y2="14"/><line class="tick" x1="30" y1="8" x2="30" y2="14"/><line class="tick" x1="40" y1="8" x2="40" y2="14"/><line class="tick" x1="50" y1="8" x2="50" y2="14"/><line class="tick" x1="60" y1="8" x2="60" y2="19"/><line class="tick" x1="70" y1="8" x2="70" y2="14"/><line class="tick" x1="80" y1="8" x2="80" y2="14"/><line class="tick" x1="90" y1="8" x2="90" y2="14"/><line class="tick" x1="100" y1="8" x2="100" y2="14"/><line class="tick" x1="110" y1="8" x2="110" y2="24"/><text x="110" y="44" text-anchor="middle">10</text><line class="tick" x1="120" y1="8" x2="120" y2="14"/><line class="tick" x1="130" y1="8" x2="130" y2="14"/><line class="tick" x1="140" y1="8" x2="140" y2="14"/><line class="tick" x1="150" y1="8" x2="150" y2="14"/><line class="tick" x1="160" y1="8" x2="160" y2="19"/><line class="tick" x1="170" y1="8" x2="170" y2="14"/><line class="tick" x1="180" y1="8" x2="180" y2="14"/><line class="tick" x1="190" y1="8" x2="190" y2="14"/><line class="tick" x1="200" y1="8" x2="200" y2="14"/><line class="tick" x1="210" y1="8" x2="210" y2="24"/><text x="210" y="44" text-anchor="middle">20</text><line class="tick" x1="220" y1="8" x2="220" y2="14"/><line class="tick" x1="230" y1="8" x2="230" y2="14"/><line class="tick" x1="240" y1="8" x2="240" y2="14"/><line class="tick" x1="250" y1="8" x2="250" y2="14"/><line class="tick" x1="260" y1="8" x2="260" y2="19"/><line class="tick" x1="270" y1="8" x2="270" y2="14"/><line class="tick" x1="280" y1="8" x2="280" y2="14"/><line class="tick" x1="290" y1="8" x2="290" y2="14"/><line class="tick" x1="300" y1="8" x2="300" y2="14"/><line class="tick" x1="310" y1="8" x2="310" y2="24"/><text x="310" y="44" text-anchor="middle">30</text><line class="tick" x1="320" y1="8" x2="320" y2="14"/><line class="tick" x1="330" y1="8" x2="330" y2="14"/><line class="tick" x1="340" y1="8" x2="340" y2="14"/><line class="tick" x1="350" y1="8" x2="350" y2="14"/><line class="tick" x1="360" y1="8" x2="360" y2="19"/><line class="tick" x1="370" y1="8" x2="370" y2="14"/><line class="tick" x1="380" y1="8" x2="380" y2="14"/><line class="tick" x1="390" y1="8" x2="390" y2="14"/><line class="tick" x1="400" y1="8" x2="400" y2="14"/><line class="tick" x1="410" y1="8" x2="410" y2="24"/><text x="392" y="44" text-anchor="middle">cm</text><path class="zone-line" d="M210 56v6h100v-6"/></svg><p>이 구간이 가장 잘 보여요</p></div>
+    <p class="from" id="fact-from">출처: 미국소아과학회, 미국검안협회</p>
+  </div>
+  <p class="note">아기마다 속도가 달라요. 실제 시야를 그대로 재현한 게 아니라 이해를 돕기 위한 연출이에요.</p>
+  <p class="src">자료: <a href="https://healthychildren.org/English/ages-stages/baby/Pages/Babys-Vision-Development.aspx" target="_blank" rel="noopener">미국소아과학회 HealthyChildren.org</a>, <a href="https://www.aoa.org/healthy-eyes/eye-health-for-life/infant-vision" target="_blank" rel="noopener">미국검안협회(AOA)</a></p>
+</section>
+
+<section class="about" id="about" aria-labelledby="about-h">
+  <h2 class="h" id="about-h">이 채널에서 다루는 것</h2>
+  <ul class="threads">
+    <li style="--c:#8FA693"><h3>아기 이해하기</h3><p>월령별로 아기가 보고 듣고 느끼는 세상, 몸짓과 울음이 보내는 신호를 풀어 드려요.</p></li>
+    <li style="--c:#6F8FAF"><h3>월령별 놀이</h3><p>지금 우리 아기 발달에 맞춰 집에서 바로 해 볼 수 있는 놀이를 소개해요.</p></li>
+    <li style="--c:#C9A574"><h3>꼼꼼히 고른 육아템</h3><p>소재, 사용 연령, 인증 정보까지 살펴보고 골라요.</p></li>
+  </ul>
+  <a class="watch" href="https://www.youtube.com/@bebeatelier" target="_blank" rel="noopener">유튜브에서 영상 보기</a>
+</section>
+</main>
+
+<footer class="foot">
+  <p class="foot-mark">Bébé Atelier</p>
+  <nav aria-label="채널"><a href="https://www.youtube.com/@bebeatelier" target="_blank" rel="noopener">YouTube</a><a href="https://www.instagram.com/bebeatelier.official/" target="_blank" rel="noopener">Instagram</a></nav>
+  <p>이 페이지의 상품 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+  <p>가격과 재고는 쿠팡에서 바뀔 수 있어요. 사기 전에 상품 페이지에서 사용 연령과 인증 정보를 꼭 확인해 주세요.</p>
+  <p>발달 정보는 공신력 있는 자료를 바탕으로 하지만, 아기마다 속도가 달라요. 걱정되는 점은 소아청소년과 선생님과 상의해 주세요.</p>
+  <p>© 2026 Bébé Atelier</p>
+</footer>
+</div>
+<script>
+(()=>{
+const d=document,root=d.documentElement,$=s=>d.querySelector(s),$$=s=>[...d.querySelectorAll(s)];
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ready=()=>root.classList.add('ready');
+(d.fonts&&d.fonts.ready?d.fonts.ready:Promise.resolve()).then(ready,ready);setTimeout(ready,1500);
+
+const tb=$('.theme');
+tb&&tb.addEventListener('click',()=>{
+  const cur=root.dataset.theme||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+  const nx=cur==='dark'?'light':'dark';root.dataset.theme=nx;
+  try{localStorage.setItem('ba-theme',nx)}catch(e){}
+});
+
+const L=$$('.rack .tag'),M=$('#m'),Q=$('#q');
+const vkey=u=>{let m=u.match(/(?:youtube\.com\/(?:shorts\/|watch\?(?:.*&)?v=|embed\/|live\/)|youtu\.be\/)([A-Za-z0-9_-]{11})/);
+  if(m)return'yt:'+m[1];m=u.match(/instagram\.com\/(?:[^\/]+\/)?(?:reels?|p|tv)\/([A-Za-z0-9_-]+)/);return m?'ig:'+m[1]:''};
+function say(text,reset){M.textContent='';if(!text){M.hidden=true;return}
+  const s=d.createElement('span');s.textContent=text;M.append(s);
+  if(reset){const b=d.createElement('button');b.type='button';b.className='reset';b.textContent='전체 보기';b.addEventListener('click',clearQ);M.append(b)}
+  M.hidden=false}
+function only(list,text){
+  L.forEach(e=>{e.hidden=!list.includes(e);e.classList.remove('hit')});say(text,true);
+  const t=list[0];if(list.length===1){void t.offsetWidth;t.classList.add('hit')}
+  t.scrollIntoView({behavior:reduce?'auto':'smooth',block:'center'})}
+function all(text){L.forEach(e=>{e.hidden=false;e.classList.remove('hit')});say(text,false)}
+function result(list,ok,fail){list.length?only(list,ok):all(fail)}
+function clearQ(){Q.value='';all('');history.replaceState(null,'',location.pathname);Q.focus()}
+function find(raw){
+  const s=String(raw||'').trim();if(!s){all('');return}
+  if(!L.length){say('아직 걸린 상품이 없어요. 첫 영상이 올라오면 여기서 찾을 수 있어요.',false);return}
+  const k=vkey(s);
+  if(k){const r=L.filter(e=>(e.dataset.v||'').split(' ').includes(k));
+    return result(r,r.length>1?`이 영상에 나온 상품 ${r.length}개예요.`:'이 영상에 나온 상품이에요.','이 영상과 연결된 상품을 아직 찾지 못했어요. 영상 속 번호로 찾아 주세요.')}
+  if(/^https?:\/\//i.test(s))return all('유튜브 쇼츠나 인스타그램 릴스 주소를 넣어 주세요.');
+  const n=s.replace(/^(?:#|p|no\.?|n°)\s*/i,'').replace(/\s*번$/,'');
+  if(/^\d+$/.test(n)){const r=L.filter(e=>e.dataset.no===String(+n));
+    return result(r,`${+n}번 상품이에요.`,`${+n}번 상품은 아직 없어요. 영상 속 번호를 다시 확인해 주세요.`)}
+  const w=s.toLowerCase().split(/\s+/),r=L.filter(e=>w.every(x=>(e.dataset.w||'').includes(x)));
+  result(r,`‘${s}’ 상품 ${r.length}개를 찾았어요.`,`‘${s}’에 맞는 상품이 없어요. 다른 이름으로 찾아 보세요.`)}
+$('#f').addEventListener('submit',e=>{e.preventDefault();find(Q.value);Q.blur()});
+Q.addEventListener('input',()=>{if(!Q.value.trim())all('')});
+const sp=new URLSearchParams(location.search),qv=sp.get('v')||sp.get('q'),h=decodeURIComponent(location.hash.slice(1));
+if(qv){Q.value=qv;find(qv)}else if(h&&!/^(find|rack|vision|about)$/.test(h)){find(h)}
+
+const scene=$('#scene');
+if(scene){
+  const S={"1": {"label": "생후 1개월", "far": 9, "near": 1.8, "sat": 0.14, "con": 0.84, "vig": 0.55, "tape": true, "text": "20~30cm 떨어진 것이 가장 잘 보여요. 안고 있을 때 엄마 아빠 얼굴까지의 거리쯤이에요. 먼 곳은 흐릿하고, 흑백처럼 대비가 강한 무늬를 오래 바라보기도 해요.", "src": "미국소아과학회, 미국검안협회"}, "2": {"label": "생후 2개월", "far": 6.5, "near": 1.1, "sat": 0.3, "con": 0.89, "vig": 0.42, "tape": false, "text": "8주쯤이면 가까이 있는 사람 얼굴에 초점을 더 쉽게 맞춰요. 두 눈이 가끔 따로 움직이는 모습은 보통 2~3개월쯤이면 줄어들어요.", "src": "미국검안협회, 미국소아과학회"}, "3": {"label": "생후 3개월", "far": 3.8, "near": 0.5, "sat": 0.5, "con": 0.94, "vig": 0.3, "tape": false, "text": "움직이는 물체를 눈으로 따라가고, 보이는 것을 향해 손을 뻗기 시작해요.", "src": "미국소아과학회, 미국검안협회"}, "4": {"label": "생후 4개월", "far": 2.2, "near": 0.2, "sat": 0.74, "con": 0.97, "vig": 0.18, "tape": false, "text": "색과 색의 미묘한 차이를 더 잘 구별해요.", "src": "미국소아과학회"}, "6": {"label": "생후 5~6개월", "far": 0.8, "near": 0, "sat": 0.93, "con": 1, "vig": 0.08, "tape": false, "text": "5개월쯤이면 두 눈이 함께 움직여 거리와 깊이를 느끼고, 색도 잘 구별해요.", "src": "미국검안협회"}},AD={far:0,near:0,sat:1,con:1,vig:0};
+  const tag=$('#scene-tag'),fh=$('#fact-h'),fp=$('#fact-p'),ff=$('#fact-from'),tape=$('#tape'),chips=$$('.months button'),ab=$('#adult');
+  let cur='1',held=false;
+  const apply=v=>{const k=(scene.clientWidth||360)/360,st=scene.style;
+    st.setProperty('--far',(v.far*k).toFixed(2)+'px');st.setProperty('--near',(v.near*k).toFixed(2)+'px');
+    st.setProperty('--sat',v.sat);st.setProperty('--con',v.con);st.setProperty('--vig',v.vig)};
+  const setMonth=(m,user)=>{cur=m;const s=S[m];if(!held)apply(s);
+    tag.textContent=s.label+'의 눈';fh.textContent=s.label;fp.textContent=s.text;ff.textContent='출처: '+s.src;tape.hidden=!s.tape;
+    chips.forEach(c=>{const on=c.dataset.m===m;c.setAttribute('aria-checked',on);c.tabIndex=on?0:-1});
+    if(user){scene.classList.remove('swing');void scene.offsetWidth;scene.classList.add('swing')}};
+  chips.forEach((c,i)=>{c.addEventListener('click',()=>setMonth(c.dataset.m,true));
+    c.addEventListener('keydown',e=>{if(e.key!=='ArrowRight'&&e.key!=='ArrowLeft')return;e.preventDefault();
+      const j=(i+(e.key==='ArrowRight'?1:-1)+chips.length)%chips.length;chips[j].focus();setMonth(chips[j].dataset.m,true)})});
+  const on=()=>{if(held)return;held=true;apply(AD);ab.setAttribute('aria-pressed','true');tag.textContent='어른의 눈'};
+  const off=()=>{if(!held)return;held=false;ab.setAttribute('aria-pressed','false');apply(S[cur]);tag.textContent=S[cur].label+'의 눈'};
+  ab.addEventListener('pointerdown',e=>{e.preventDefault();on()});
+  ['pointerup','pointerleave','pointercancel','blur'].forEach(t=>ab.addEventListener(t,off));
+  ab.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();on()}});
+  ab.addEventListener('keyup',e=>{if(e.key===' '||e.key==='Enter')off()});
+  ab.addEventListener('contextmenu',e=>e.preventDefault());
+  addEventListener('resize',()=>apply(held?AD:S[cur]));
+  setMonth('1',false);
+}
+})();
+</script>
+</body>
+</html>
