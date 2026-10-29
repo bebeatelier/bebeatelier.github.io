@@ -176,8 +176,8 @@ h2.h{margin:0;font:700 22px/1.35 "Gowun Batang",serif}
 @keyframes sway{0%{transform:rotate(0)}15%{transform:rotate(7deg)}38%{transform:rotate(-5deg)}60%{transform:rotate(3deg)}80%{transform:rotate(-1.2deg)}100%{transform:rotate(0)}}
 
 @media (min-width:980px){
-.page{display:grid;grid-template-columns:minmax(0,430px) minmax(0,1fr);column-gap:80px;max-width:1180px;padding:0 48px 64px}
-.bar,.foot{grid-column:1/-1}
+.page{max-width:1180px;padding:0 48px 64px}
+.cols{display:grid;grid-template-columns:minmax(0,430px) minmax(0,1fr);column-gap:80px}
 .side{grid-column:1;align-self:start}
 .main{grid-column:2;padding-top:24px}
 .wordmark{font-size:120px}
@@ -195,6 +195,7 @@ h2.h{margin:0;font:700 22px/1.35 "Gowun Batang",serif}
   <button class="theme" type="button" aria-label="밝은 화면과 어두운 화면 바꾸기"><svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></button>
 </header>
 
+<div class="cols">
 <div class="side">
 <section class="hero" aria-labelledby="wm">
   <h1 class="wordmark" id="wm" aria-label="Bébé Atelier"><span aria-hidden="true">Bébé</span><span aria-hidden="true">Atelier</span></h1>
@@ -317,6 +318,7 @@ h2.h{margin:0;font:700 22px/1.35 "Gowun Batang",serif}
   <a class="watch" href="https://www.youtube.com/@bebeatelier" target="_blank" rel="noopener">유튜브에서 영상 보기</a>
 </section>
 </main>
+</div>
 
 <footer class="foot">
   <p class="foot-mark">Bébé Atelier</p>
